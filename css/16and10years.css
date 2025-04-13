@@ -1,0 +1,260 @@
+/* 背景色・文字色 */
+
+body {
+    background-color: white;
+}
+
+p {
+    font-size: 15px;
+}
+
+img {
+    width: 100%;
+    }
+
+img.section-title {
+    width: 100vw;
+    margin: 150px calc(50% - 50vw);
+    }
+
+img.cast-image {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    }
+
+.background_16and10years{
+    background-color: white;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    color: black;
+}
+
+.section-title {
+    color: black;
+}
+
+footer {
+    color: black;
+}
+
+.footer_icon_sp{
+  width: 30px;
+  margin: 10px;
+}
+
+
+
+#top_16and10years{
+    background-image: url("../img/16and10years/16and10years_top.png");
+    background-size: cover;
+    position: relative;
+    height:100%;
+}
+
+
+
+
+#top_16and10years_sp{
+  width: 100%;
+  height: 0;
+  padding-top: calc(2082 / 1478 * 100%); /* calc(画像高さ ÷ 画像横幅 × 100%) */
+  background: url("../img/16and10years/16and10years_top_sp.jpg") center center / cover no-repeat;
+}
+
+#news_top_16and10years{
+    background-image: url("../img/16and10years/news_topcover.jpg");
+    background-size: cover;
+    position: relative;
+    height:100%;
+}
+
+
+ul {
+  padding-inline-start: 0px;
+
+}
+
+.li-label{
+  color: black;
+  list-style: none;
+  border-top:1px dotted #999999;
+  padding:10px 0px;
+}
+
+.li-bottom{
+  border-bottom:1px dotted #999999;
+}
+
+
+.li-label a{
+  color: black;
+}
+
+
+h1.film_toplogo{
+    font-size: 40px;
+    font-family: serif;
+    color: white;
+}
+
+.film_toplogo_bg{
+  width: 100%;
+  position: relative;
+  text-align:right;
+  right: 10%;
+  top: 85%;
+  -webkit-transform: translateY(-85%); /* Safari用 */
+  transform: translateY(-85%);
+}
+
+/* Story 用 Start*/
+.film_about li{
+    white-space: nowrap;
+}
+/* Story 用 End*/
+
+/* navbar Color*/
+.navbar-custom.top-nav-collapse {
+  background: #B3A7A3;
+
+}
+
+/* navbar Icon*/
+.film-top-logo {
+  width: 150px;
+}
+
+
+.film-top-logo-16and10years {
+  margin-left: -75px;
+  margin-top: -12px;
+}
+
+
+/* navbar ドロップダウン(子)のボックスカラー */
+.dropdown-menu {
+background-color: #08063C;
+}
+/* navbar ドロップダウン(子)テキストカラー */
+.dropdown-menu>li>a {
+color: #ffffff;
+}
+/* navbar ドロップダウン(子)focus,hover時のカラー */
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+color: #26534c;
+background-color: #c3ede7;
+}
+
+/* navbar ドロップダウン End */
+
+.iframe {
+  width: 768px;
+  height: 432px;
+}
+
+hr.news-separator-16and10years {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #DCDCDC;
+}
+
+a.btn-news{
+width: 100%;
+max-width: 340px;
+padding: 15px 10px;
+display: inline-block;
+text-align: center;
+letter-spacing: 0.1em;
+color: #2f86c1;
+border: 1.9px solid #2f86c1;
+margin-top: 20px;
+}
+
+.news-top{
+  font-size: 33px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+
+
+/* レスポンシブ用CSS Start */
+
+@media(max-width:767px) {
+
+.navbar-custom{
+  background-color: #B3A7A3;
+}
+
+
+#top_16and10years{
+    margin-top: 56px;
+    background-image: url("../img/16and10years/16and10years_top_sp.jpg");
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    background-position: top;
+
+}
+
+#news_top_16and10years{
+  width: 100%;
+  height: 0;
+  padding-top: calc(720 / 843 * 100%); /* calc(画像高さ ÷ 画像横幅 × 100%) */
+  background: url("../img/16and10years/news_topcover_sp.jpg") center center / cover no-repeat;
+}
+
+h1.film_toplogo{
+    font-size:0%;
+    text-indent:-9999px;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+
+.film_toplogo_bg{
+    font-size:0%;
+    text-indent:-9999px;
+}
+
+
+  .iframe-wrapper {
+    position: relative;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    padding-top: 56.25%;
+      }
+  .iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+a {
+    font-size:15px;
+}
+
+.film-top-logo-16and10years {
+  margin-left: -75px;
+  margin-top: -12px;
+}
+
+.top-nav-color{
+  color: white;
+}
+
+.news-top{
+  font-size: 25px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
+}
+
+
+

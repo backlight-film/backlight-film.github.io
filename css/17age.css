@@ -1,0 +1,193 @@
+/* 背景色・文字色 */
+
+body {
+    background-color: white;
+}
+
+.background_17age{
+    background-color: #F0F0EC;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    color: gray;
+}
+
+.section-title {
+    color: gray;
+}
+
+footer {
+    color: gray;
+}
+
+#top_17age{
+    background-image: url("../img/home/site_17age_home.png");
+    background-size: cover;
+    position: relative;
+    height:106%;
+    margin-top: -40px;
+}
+
+h1.film_toplogo{
+    font-size: 40px;
+    font-family: serif;
+    color: gray;
+}
+
+.film_toplogo_bg{
+  width: 100%;
+  position: relative;
+  text-align:right;
+  right: 10%;
+  top: 85%;
+  -webkit-transform: translateY(-85%); /* Safari用 */
+  transform: translateY(-85%);
+}
+
+
+
+
+.swiper-slide{
+    background-color: #F0F0EC;
+}
+
+.films-caption figcaption{
+    color: gray;
+}
+
+
+.navbar-custom.top-nav-collapse {
+    background: gray;
+}
+
+
+/* Story 用 Start*/
+
+.film_about_Wrap{
+    position: relative;
+    width: auto;
+    height: 500px;
+}
+
+.film_about {
+    writing-mode: vertical-rl;
+    font-size: 16px;
+    font-family: serif;
+    display: inline;
+
+    width: 240px;
+    height: 600px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+}
+
+.film_about li{
+    white-space: nowrap;
+
+}
+
+
+/* Story 用 End*/
+
+/* navbar ドロップダウン Start */
+
+/* navbar ドロップダウン(子)のボックスカラー */
+.dropdown-menu {
+background-color: gray;
+}
+/* navbar ドロップダウン(子)テキストカラー */
+.dropdown-menu>li>a {
+color: #ffffff;
+}
+/* navbar ドロップダウン(子)focus,hover時のカラー */
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+color: #26534c;
+background-color: #c3ede7;
+}
+
+/* navbar ドロップダウン End */
+
+.iframe {
+  width: 768px;
+  height: 432px;
+}
+
+.theater-commnent{
+  margin-bottom: 100px;
+}
+
+.theater-commnent p{
+  margin-bottom: 5px;
+}
+
+.theater-commnent a{
+  font-size: 20px;
+  color: #8BBED3;
+}
+
+.theater-logo{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* レスポンシブ用CSS Start */
+
+@media(max-width:767px) {
+
+.navbar-custom{
+  background-color: gray;
+}
+
+#top_17age{
+    margin-top: 56px;
+    background-image: url("../img/17age/liveinthenote_poster.jpg");
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    background-position: top;
+
+}
+
+h1.film_toplogo{
+    font-size:0%;
+    text-indent:-9999px;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+
+.film_toplogo_bg{
+    font-size:0%;
+    text-indent:-9999px;
+}
+
+
+  .iframe-wrapper {
+    position: relative;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    padding-top: 56.25%;
+      }
+  .iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.theater-commnent a{
+  font-size: 10px;
+
+}
+
+
+
+}
+
+
+
